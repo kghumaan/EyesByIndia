@@ -5,15 +5,14 @@
         <link rel="stylesheet" type="text/css" href="CSS/index.css"/>
             <script type="text/javascript">
             $(document).ready(function(){
-            $("#header").slideDown("slow");
-            // $("#menu").delay(2000).slideUp("slow");
+            $("#header").slideDown("slow"); 
+            $('#menu').hide().delay(2000).slideDown(3000);     
             });
             </script>
     </head>
     <body>
         <div id="header">
             <div id="menu">
-                <div id="bottom">
                 <nav>
                     <ul class="cf">
                         <li><a href="#">Menu Item 1</a></li>
@@ -27,7 +26,6 @@
                         <li><a href="#">Menu Item 3</a></li>
                     </ul>
                 </nav>
-                </div>
             </div>
         </div>
 
